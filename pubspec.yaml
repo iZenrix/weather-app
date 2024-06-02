@@ -1,0 +1,43 @@
+name: learn_bloc
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: "^3.3.0"
+
+dependencies:
+  bloc: ^8.1.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^1.1.6
+  intl: ^0.18.1
+  http: ^1.2.1
+  equatable: ^2.0.5
+
+
+#  flutter_gen: any
+dev_dependencies:
+  bloc_test: ^9.1.6
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  very_good_analysis: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/weather/
+    - assets/images/highlight/
+
+  fonts:
+    - family: Bearskin
+      fonts:
+        - asset: assets/fonts/Bearskin.otf
+
